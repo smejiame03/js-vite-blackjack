@@ -1,0 +1,30 @@
+/* . da a entender que es por clase */
+/* # da a entender que es por id */
+
+html, body{
+  margin: 0px;
+  background-color: #2F4F30;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  width: 150px;
+  /* Para que las cartas esten un poco sobrepuestas entre ellas */
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+}
+
+/* Para mantener un ancho estático aun sin cartas */
+
+#computador-cartas, #jugador-cartas{
+  height: 220px;
+}
